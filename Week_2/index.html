@@ -3,18 +3,20 @@
   <head>
     <title>ML5_Week02</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
     <script defer src="app.js"></script>
   </head>
 
   <body>
-    <h1>Basic example</h1>
+    <h1>Image recognizer!</h1>
 
     <div>
       <label for="file">Upload Image</label>
       <input type="file" accept="image/*;capture=camera" id="file">
     </div>
-    <div><img id="image" width="400"/></div>
+    <h2>Chosen image:</h2>
+    <div><img id="image" width="200"/></div>
   
     <p id="first"> </p>
     <p id="second"></p>
