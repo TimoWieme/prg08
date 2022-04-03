@@ -14,10 +14,10 @@
 <li> De toegevoegde waarde die AI gaat hebben bij dit concept is dat de gebruiker een voorspelling krijgt van hoeveel uitstoot en verbruik hij/zij heeft voor een bepaalde route, en op deze manier na gaat denken of het niet beter is om de fiets of OV te pakken. </li>
 
 ## Welke data heb je nodig en hoe kom je daar aan?
-<li> De data die ik hierbij nodig heb is het kenteken van het voortuig waarmee gereden wordt. Met dit kenteken kan er via een API gekeken worden hoeveel de auto verbruikt. Verder heb ik een dataset nodig met hoeveel verbruik bepaalde auto's hebben zodat ik kan uitrekenen hoeveel ze uitstoten. De dataset die ik gebruik komt van Kaggle en heet : CO2 Emission by Vehicles (https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles/code) </li>
+<li> De data die ik hierbij nodig heb is het kenteken van het voortuig waarmee gereden wordt. Met dit kenteken kan er via een API gekeken worden hoeveel de auto verbruikt. (https://overheid.io/documentatie/voertuiggegevens API.) Verder heb ik een dataset nodig met hoeveel verbruik bepaalde auto's hebben zodat ik kan uitrekenen hoeveel ze uitstoten. De dataset die ik gebruik komt van Kaggle en heet : CO2 Emission by Vehicles (https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles/code) </li>
 
 ## Welke library / algoritme denk jij dat geschikt is voor jouw concept?
-<li> De algoritme die ik ga gebruiken is ML5 Neural networks, de API die ik ga gebruiken is de overheid.io/voertuigen API (voor het ophalen van de gegevens aan de hand van een kenteken.) </li>
+<li> De algoritme die ik ga gebruiken is ML5 Neural networks, de API die ik ga gebruiken is de https://overheid.io/documentatie/voertuiggegevens API (voor het ophalen van de gegevens aan de hand van een kenteken.) </li>
 <li> ML5 neural networks zou ik eventueel kunnen gebruiken voor het voorspellen hoeveel uitstoot er is per route </li>
 
 ## Beschrijf de de uiteindelijke vorm (Website, app, installatie, etc).  </h3> </li>
