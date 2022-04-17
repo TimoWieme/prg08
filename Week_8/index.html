@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Week_8/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script defer type="module" src="../Week_8/main.js"></script>
+    <title>Calculate your emission!</title>
+</head>
+
+<body>
+    <h1 class="text-center" id="title">Licenseplate checker</h1>
+    <h3 class="text-center" id="underTitle">Fill in your licenseplate and the amount of kilometres.
+        <p>Check your emission!</p>
+    </h3>
+    </h3>
+    <!-- <h3 class="text-center" id="underTitle">Check your emission!</h3> -->
+    <form>
+        <div class="container">
+            <div class="mx-auto" align-items-center>
+                <div class="col-auto">
+                    <label for="plateForm" class="form-label">Licenseplate</label>
+                    <input type="text" class="form-control" id="plateForm" aria-describedby="plateForm"
+                        placeholder="e.g. :  23abc9">
+                </div>
+                <div id="plateForm" class="form-text">Fill in your licenseplate number (without spaces or dashes)</div>
+                <div class="col-auto">
+                    <label for="kilometres" class="form-label">Amount of kilometres (rounded)</label>
+                    <input type="number" class="form-control" id="kilometres" aria-describedby="kilometres"
+                        placeholder="e.g. : 37">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="plate">Calculate</button>
+        </div>
+    </form>
+    <div class="container" id="img1">
+        <p class="text-center" id="imageText"> </p>
+        <img id="bicycle" src="images/fiets.png" />
+        <br>
+        <!--only display this if the kilometres are under or equal to 7,5-->
+    </div>
+    <div class="container">
+        <h4 class="text-center" id="co2"></h4>
+        <h4 class="text-center" id="kms"></h4>
+        <h4 class="text-center" id="OV"></h4>
+    </div>
+</body>
+
+</html>
