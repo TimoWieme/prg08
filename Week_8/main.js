@@ -85,7 +85,7 @@ async function useAPI(licensePlate, kilometres) {
         document.getElementById("co2").innerHTML = `Your predicted fuel usage is: ${prediction} liter/100km, you will emit about ${emission} kg CO2 every 100 kilometres`
         document.getElementById("OV").innerHTML = `Public transport would be a better choice!`
     } else {
-        document.getElementById("co2").innerHTML = `We kunnen helaas geen voorspelling maken voor uw auto`
+        document.getElementById("co2").innerHTML = `Unfortunately we cant make a prediction for this car!`
     }
 }
 
